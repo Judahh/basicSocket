@@ -1,0 +1,42 @@
+{
+  "name": "basicsocket",
+  "productName": "basicSocket",
+  "author": "Judah Holanda Correia Lima <judahholanda7@gmail.com> (https://judahh.com)",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Judahh basicSocket project",
+  "main": "index.js",
+  "keywords": [
+    "judahh",
+    "socket"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Judahh/basicSocket.git"
+  },
+  "homepage": "https://github.com/Judahh/basicSocket#readme",
+  "license": "BSD-3-Clause",
+  "angular-cli": {},
+  "scripts": {
+    "start": "npm install",
+    "lint": "tslint \"src/**/*.ts\"",
+    "test": "ng test",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "ntsc": "ntsc",
+    "ntsc:w": "ntsc -w",
+    "clean": "shx rm -Rf build/",
+    "gulp": "gulp"
+  },
+  "dependencies": {
+    "socket.io-client": "2.0.4",
+    "uuid": "3.2.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "3.3.0",
+    "@types/node": "^9.4.6",
+    "@types/webpack": "^3.8.8",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.7.2"
+  }
+}
