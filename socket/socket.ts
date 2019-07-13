@@ -8,9 +8,12 @@ export class Socket {
     private subscribers: any;
     private subscribersOldData: any;
 
-    constructor() {
+    constructor(socket?) {
         let _self = this;
-        _self.basicSocket = new BasicSocket(io());
+        if(socket)
+            _self.basicSocket = new BasicSocket(socket);
+        else
+            _self.basicSocket = new BasicSocket(io());
         _self.subscribers = {};
         _self.subscribersOldData = {};
         
