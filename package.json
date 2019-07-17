@@ -2,7 +2,7 @@
   "name": "basicsocket",
   "productName": "basicSocket",
   "author": "Judah Holanda Correia Lima <judahholanda7@gmail.com> (https://judahh.com)",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "private": false,
   "description": "Judahh basicSocket project",
   "main": "index.js",
