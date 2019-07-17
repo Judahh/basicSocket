@@ -2,7 +2,7 @@
   "name": "basicsocket",
   "productName": "basicSocket",
   "author": "Judah Holanda Correia Lima <judahholanda7@gmail.com> (https://judahh.com)",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "private": false,
   "description": "Judahh basicSocket project",
   "main": "index.js",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "socket.io-client": "2.2.0",
-    "journaly": "0.0.1"
+    "journaly": "0.0.3"
   },
   "devDependencies": {
     "@types/node": "12.6.8"
