@@ -2,7 +2,7 @@
   "name": "basicsocket",
   "productName": "basicSocket",
   "author": "Judah Holanda Correia Lima <judahholanda7@gmail.com> (https://judahh.com)",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": false,
   "description": "Judahh basicSocket project",
   "main": "index.js",
@@ -30,13 +30,13 @@
     "clean": "shx rm -Rf build/"
   },
   "dependencies": {
-    "socket.io-client": "2.2.0",
-    "node": "12.9.1",
-    "journaly": "0.0.5",
-    "tslint": "5.19.0",
-    "typescript": "3.6.2"
+    "socket.io-client": "2.3.0",
+    "node": "13.3.0",
+    "journaly": "0.0.7",
+    "tslint": "5.20.1"
   },
   "devDependencies": {
-    "@types/node": "12.7.4"
+    "@types/node": "12.12.14",
+    "typescript": "3.7.3"
   }
 }
