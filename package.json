@@ -2,7 +2,7 @@
   "name": "basicsocket",
   "productName": "basicSocket",
   "author": "Judah Holanda Correia Lima <judahholanda7@gmail.com> (https://judahh.com)",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "private": false,
   "description": "Judahh basicSocket project",
   "main": "index.js",
@@ -18,25 +18,28 @@
   "license": "BSD-3-Clause",
   "angular-cli": {},
   "scripts": {
-    "postinstall": "tsc",
-    "prestart": "",
+    "postinstall": "",
+    "prepublish": "",
+    "build": "tsc",
     "lint": "tslint \"src/**/*.ts\"",
-    "test": "ng test",
-    "pree2e": "webdriver-manager update",
-    "e2e": "protractor",
+    "test": "jest --passWithNoTests",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "build": "gulp build",
+    "ntsc": "ntsc",
+    "ntsc:w": "ntsc -w",
     "clean": "shx rm -Rf build/"
   },
   "dependencies": {
     "socket.io-client": "2.3.0",
-    "node": "13.5.0",
-    "journaly": "0.0.8",
-    "tslint": "5.20.1"
+    "node": "13.6.0",
+    "journaly": "0.1.0"
   },
   "devDependencies": {
-    "@types/node": "13.1.2",
-    "typescript": "3.7.4"
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "tslint": "^5.20.1",
+    "typescript": "3.7.5",
+    "@types/node": "13.1.7",
+    "@types/jest": "^24.9.0"
   }
 }
