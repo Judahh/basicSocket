@@ -32,7 +32,7 @@
   "dependencies": {
     "socket.io-client": "2.3.0",
     "node": "13.6.0",
-    "journaly": "0.1.0"
+    "journaly": "3.0.2"
   },
   "devDependencies": {
     "jest": "^24.9.0",
